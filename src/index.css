@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+:root {
+  font-family: 'work sans', sans-serif;
+  color: rgba(84, 95, 125, 1);
+  /* font-family: 'Avenir', sans-serif; */
+  --lightest-blue-color: rgba(57, 205, 205, 0.103);
+  --lighter-blue-color: rgba(57, 205, 204, 1);
+  --blue-color: rgba(33, 63, 125, 1);
+  --inactive-color: rgba(84, 95, 125, 1);
+  --inactive-bg-color: rgba(84, 95, 125, .1);
+  --active-color: rgba(57, 205, 98, 1);
+  --active-bg-color: rgba(57, 205, 98, 0.1);
+  --pending-color: rgba(233, 178, 0, 1);
+  --pending-bg-color: rgba(233, 178, 0, .1);
+  --blacklist-color: rgba(228, 3, 59, 1);
+  --blacklist-bg-color: rgba(228, 3, 59, .1);
+  --border: 2px solid rgb(230, 230, 230);
+  --placeholder: rgb(154, 154, 154);
+  --bg-color: rgba(245, 245, 245, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--bg-color);
+  overflow: auto;
+}
+
+/*
+  width: 447px;
+height: 48px;
+top: 563px;
+left: 836px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+
+login
+login btn rgba(57, 205, 204, 1)
+wlcome rgba(33, 63, 125, 1)
+logo rgba(33, 63, 125, 1)
+forget password 
+font-family: Avenir Next;
+font-size: 12px;
+font-weight: 600;
+line-height: 16.39px;
+letter-spacing: 0.1em;
+text-align: right;
+
+
+dashboard 
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.15px;
+text-align: left;
+   */

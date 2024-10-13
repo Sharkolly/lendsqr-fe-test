@@ -1,0 +1,125 @@
+div.login-container {
+  font-family: "Avenir", sans-serif;
+  width: 85%;
+  margin-inline: auto;
+  margin-top: 3.5em;
+}
+
+div.login-container h1 {
+  color: var(--blue-color);
+}
+
+div.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  margin-bottom: 3em;
+}
+
+div.art-login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10em;
+}
+
+div.art-login-form img {
+  margin-top: 2rem;
+}
+
+div.loginForm {
+  width: 100%;
+}
+
+div.welcome-greeting {
+  text-align: left;
+  margin-bottom: 2.5em;
+}
+
+div.welcome-greeting h1 {
+  margin-bottom: 0.2em;
+}
+
+div.welcome-greeting p {
+  margin: 0;
+}
+
+div.email-input,
+div.password-input {
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+div.email-input input,
+div.password-input input {
+  margin-inline: 0;
+  font-family: "Avenir", sans-serif;
+  width: 70%;
+  padding-block: 0.8rem;
+  padding-left: 0.6rem;
+  border: 2px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+div.email-input input::-webkit-input-placeholder,
+div.password-input input::-webkit-input-placeholder {
+  color: #cdcdcd;
+}
+
+div.email-input input:-ms-input-placeholder,
+div.password-input input:-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+div.email-input input::-ms-input-placeholder,
+div.password-input input::-ms-input-placeholder {
+  color: #cdcdcd;
+}
+
+div.email-input input::placeholder,
+div.password-input input::placeholder {
+  color: #cdcdcd;
+}
+
+div.password-input {
+  position: relative;
+}
+
+div.password-input button {
+  background-color: transparent;
+  border: none;
+  color: var(--lighter-blue-color);
+  font-weight: bold;
+  font-size: 0.7rem;
+  position: absolute;
+  right: 30%;
+  top: 34%;
+}
+
+div.forgot-password {
+  margin-block: 1.5em;
+}
+
+div.forgot-password p {
+  color: var(--lighter-blue-color);
+  letter-spacing: 1.4px;
+  font-size: 0.8rem;
+}
+
+div.login-btn {
+  width: 100%;
+}
+
+div.login-btn button {
+  background: var(--lighter-blue-color);
+  color: white;
+  width: 72.5%;
+  border: none;
+  border-radius: 6px;
+  padding-block: 0.8rem;
+}
+/*# sourceMappingURL=Login.css.map */

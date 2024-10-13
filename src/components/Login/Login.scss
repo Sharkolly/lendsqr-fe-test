@@ -1,0 +1,96 @@
+div.login-container {
+  font-family: "Avenir", sans-serif;
+  width: 85%;
+  margin-inline: auto;
+  margin-top: 3.5em;
+
+  h1 {
+    color: var(--blue-color);
+  }
+}
+
+div.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3em;
+}
+div.art-login-form {
+  display: flex;
+  gap: 10em;
+
+  img {
+    margin-top: 2rem;
+  }
+}
+
+div.loginForm {
+  width: 100%;
+}
+
+div.welcome-greeting {
+  text-align: left;
+  margin-bottom: 2.5em;
+  h1 {
+    margin-bottom: 0.2em;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+div.email-input,
+div.password-input {
+  margin-top: 1.5em;
+  width: 100%;
+
+  input {
+    margin-inline: 0;
+    font-family: "Avenir", sans-serif;
+    width: 70%;
+    padding-block: 0.8rem;
+    padding-left: 0.6rem;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    &::placeholder {
+      color: rgb(205, 205, 205);
+    }
+  }
+}
+
+div.password-input {
+  position: relative;
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: var(--lighter-blue-color);
+    font-weight: bold;
+    font-size: 0.7rem;
+    position: absolute;
+    right: 30%;
+    top: 34%;
+  }
+}
+
+div.forgot-password {
+  margin-block: 1.5em;
+  p {
+    color: var(--lighter-blue-color);
+    letter-spacing: 1.4px;
+    font-size: 0.8rem;
+  }
+}
+
+div.login-btn {
+  width: 100%;
+
+  button {
+    background: var(--lighter-blue-color);
+    color: white;
+    width: 72.5%;
+    border: none;
+    border-radius: 6px;
+    padding-block: 0.8rem;
+  }
+}

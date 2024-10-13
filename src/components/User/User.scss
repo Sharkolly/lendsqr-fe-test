@@ -1,0 +1,60 @@
+div.users-container{
+    margin-left: 25em;
+    margin-right: 2.5em;
+    margin-top: 7.5em;
+}
+div.user-text{
+    overflow: hidden;
+    
+    p{
+        font-size: 1.6em;
+        color: var(--blue-color);
+    }
+}
+
+div.user-actions{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+
+    div.users-border{
+        background-color: var(--white-color);
+        padding-inline: 2rem 5rem;
+        width: 10em;
+        border-radius: .4em;
+        flex: 1 1 9em;
+        img{
+            margin-top: 1.5em;
+        }
+
+        p{
+            font-size: .8em;
+        }
+    }
+
+}
+
+div.users-with-savings{
+    background: #000;
+}
+
+@media (max-width: 770px) {   
+    div.users-container{
+    margin-inline: auto;
+    width: 92%;
+    overflow: scroll;
+    // overflow: hidden;
+    // position: sticky;
+    // top: 7.5em;
+
+    }
+
+    div.user-actions{
+
+        div.users-border{
+            padding-inline: 1.5rem;
+        }
+    }
+}

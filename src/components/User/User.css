@@ -1,0 +1,60 @@
+div.users-container {
+  margin-left: 25em;
+  margin-right: 2.5em;
+  margin-top: 7.5em;
+}
+
+div.user-text {
+  overflow: hidden;
+}
+
+div.user-text p {
+  font-size: 1.6em;
+  color: var(--blue-color);
+}
+
+div.user-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2em;
+}
+
+div.user-actions div.users-border {
+  background-color: var(--white-color);
+  padding-inline: 2rem 5rem;
+  width: 10em;
+  border-radius: .4em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 9em;
+          flex: 1 1 9em;
+}
+
+div.user-actions div.users-border img {
+  margin-top: 1.5em;
+}
+
+div.user-actions div.users-border p {
+  font-size: .8em;
+}
+
+div.users-with-savings {
+  background: #000;
+}
+
+@media (max-width: 770px) {
+  div.users-container {
+    margin-inline: auto;
+    width: 92%;
+    overflow: scroll;
+  }
+  div.user-actions div.users-border {
+    padding-inline: 1.5rem;
+  }
+}
+/*# sourceMappingURL=User.css.map */
